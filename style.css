@@ -1,0 +1,140 @@
+:root{
+    /* ## Colors */
+
+    /* ### Primary */
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+
+    /* ### Neutral */
+    --Grey500: hsl(234, 12%, 34%);
+    --Grey400: hsl(212, 6%, 44%);
+    --White: hsl(0, 0%, 100%);
+
+    /* ## Typography */
+    --FontFamily: 'Poppins', sans-serif;
+    /* Weights: 200, 400, 600 */
+}
+
+*{
+    box-sizing: border-box;
+    font-family: var(--FontFamily);
+    color: var(--Grey500);
+}
+header{
+    text-align: center;
+    padding: 1em;
+    margin:2em ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.title{
+    font-size: 21px;
+    font-weight: 200;
+    color: var(--Grey400);
+    margin-bottom: 6px;
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 5px;
+
+}
+.description,
+.card-description{
+    width: 30em;
+    font-weight: 200;
+    font-size: 13px;
+}
+main{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    grid-template-columns:1fr   1fr 1fr 1fr 1fr;
+}
+.card {
+    width: 20em;
+    height: auto;
+    background-color: var(--White);
+    padding: 10px;
+    box-shadow:0px 10px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+
+}
+.card p{
+    width: 100%;
+    text-align: justify;
+}
+.card img{
+    width: 50px;
+    height: 50px;
+    align-self: self-end;
+    margin: 1em;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--Grey500);
+}
+.text{
+    margin: 10px 5px;
+    padding: 8px;
+}
+/* team Builder */
+.card-1{
+    grid-column:3/4 ;
+    grid-row:1/3 ;
+    border:4px solid;
+    border-color: var(--Red) transparent  transparent transparent;
+}
+
+/* Supervisor */
+.card-2{
+    grid-column:2/3 ;
+    grid-row:2/4 ;
+    border:4px solid;
+    border-color: var(--Cyan) transparent  transparent transparent;
+}
+
+/* Karma */
+.card-3{
+    grid-column:3/4 ;
+    grid-row:3/5 ;
+    border:4px solid;
+    border-color: var(--Orange) transparent  transparent transparent;
+}
+/* Calculator */
+.card-4{
+    grid-column:4/5 ;
+    grid-row:2/4 ;
+    border:4px solid;
+    border-color: var(--Blue) transparent  transparent transparent;
+}
+footer{
+    text-align: center;
+    margin: 2em;
+}
+footer a{
+    color: var(--Red);
+    text-decoration: none;
+    font-weight: 600;
+}
+@media (max-width:787px) {
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+        margin: 1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
