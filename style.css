@@ -130,11 +130,16 @@ footer a{
     main{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        width: 100%;
     }
     header{
         margin: 1em;
         justify-content: center;
         align-items: center;
         text-align: center;
+        width: fit-content;
+
     }
 }
