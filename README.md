@@ -30,6 +30,8 @@ This project was built to practice layout techniques such as Flexbox/Grid while 
 - HTML5  
 - CSS3  
 - Responsive design techniques
+## screenshot
+![Screenshot_2-4-2026_35323_nadaafawzyy github io](https://github.com/user-attachments/assets/49fe1352-765f-4926-bb62-c0bfa19ba257)
 
 ## 🚀 Live Demo
 
