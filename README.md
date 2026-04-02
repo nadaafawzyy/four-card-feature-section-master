@@ -11,7 +11,7 @@ Uses semantic HTML
 
 📈 What I Learned
 Example points you can customize:
-Built complex layout using only HTML & CSS
+Built a complex layout using only HTML & CSS
 Practiced responsive design with media queries
 Improved use of semantic elements and CSS structure
 
@@ -23,7 +23,7 @@ This repository contains a feature section with four cards:
 - Clean, minimal design with consistent spacing and typography  
 - Fully responsive layout that adapts to different screen sizes  
 
-This project was built to practice layout techniques such as Flexbox/Grid while mirroring a provided design file. :contentReference[oaicite:2]{index=2}
+This project was built to practice layout techniques such as Flexbox/Grid while mirroring a provided design file.
 
 ## 🧠 Built With
 
